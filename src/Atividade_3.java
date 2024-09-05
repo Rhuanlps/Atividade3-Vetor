@@ -6,8 +6,11 @@ public class Atividade_3 {
         vetor[0] = 5;
         vetor[1] = 10;
 
-        vetor[1] = 5;
-        vetor[0] = 10;
+        int temp = vetor[0];
+        vetor[0] = vetor[1];
+        vetor[1] = temp;
+        System.out.println("Posição 0: " + vetor[0]);
+        System.out.println("Posição 1: " + vetor[1]);
 
 
     }
